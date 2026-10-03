@@ -472,7 +472,7 @@ The dashboard includes analysis areas such as:
 The purpose of the dashboard is to allow a business user to quickly move from **overall performance to detailed product, customer, geography, and discount analysis**.
 
 ![Myntra Sales & Customer Analysis Dashboard](https://github.com/csainichakraborty-netizen/Myntra-Sales-and-Customer-Analysis-Excel/blob/c1469a0c6f39ef6f5712b752914ba09a31bdc72f/Dashboard(1).png)
-![Myntra Sales & Customer Analysis Dashboard](images/dashboard(2).png)
+![Myntra Sales & Customer Analysis Dashboard](https://github.com/csainichakraborty-netizen/Myntra-Sales-and-Customer-Analysis-Excel/blob/104fb06eec53dfb3b33ee9bf55cc0ec650dee661/Dashboard(2).png)
 ---
 
 ## How to Run This Project
