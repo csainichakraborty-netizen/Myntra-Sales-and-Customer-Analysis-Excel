@@ -1,6 +1,9 @@
-# Myntra Sales & Customer Analysis — Excel Dashboard
 
-## Table of Contents
+# 🧾 Myntra Sales & Customer Analysis — Excel Dashboard
+
+_Analyzing Myntra sales and customer behavior to support strategic marketing and retail operations decisions using MS Excel._
+
+## 📌 Table of Contents
 
 - [Overview](https://github.com/ayushimishra28/vendor-performance-analysis-sql-python-powerbi-test#overview)
 - [Business Problem](https://github.com/ayushimishra28/vendor-performance-analysis-sql-python-powerbi-test#business-problem)
@@ -17,62 +20,18 @@
 
 ## Overview
 
-This project is an **Excel-based sales and customer analysis** of a Myntra e-commerce dataset.
-
-The main goal of the project is to understand sales performance, customer behavior, product performance, discount patterns, and geographical performance using Excel.
-
-The analysis converts raw order-level data into useful business insights through:
-
-- Data cleaning and preparation
-- Data integration
-- Calculated columns
-- PivotTables
-- KPI analysis
-- Product and category analysis
-- Customer analysis
-- Geographic analysis
-- Discount analysis
-- Customer concentration analysis
-- Charts and dashboard-style reporting
-
-### Key Metrics
-
-| KPI | Value |
-|---|---:|
-| Total Orders | 3,500 |
-| Total Sales After Discount | ₹18.89 Lakh |
-| Average Order Value | ₹539.67 |
-| Total Discount Given | ₹10.61 Lakh |
-| Average Discount | 35.51% |
-| Unique Customers | 100 |
-| Unique Products Ordered | 3,071 |
-| Brands | 72 |
-| States | 10 |
-| Cities | 24 |
-| Analysis Period | Jan 2021 – Mar 2023 |
-
-> **Note:** Sales in this project means the calculated selling value after discount. The dataset does not contain product cost, profit, returns, cancellations, or operating expenses, so profit cannot be calculated from this data.
+This project is an **Excel-based sales and customer analysis** of a Myntra e-commerce dataset. The main goal of the project is to understand sales performance, customer behavior, product performance, discount patterns, and geographical performance using Excel.
 
 ---
 
 ## Business Problem
 
-An e-commerce business needs to understand what is driving its sales and where there are opportunities to improve performance.
-
-This analysis focuses on the following business questions:
-
-1. How much sales value and how many orders were generated?
-2. How does sales performance change over time?
-3. Which categories and sub-categories generate the most sales?
-4. Which brands and products perform best?
-5. Which customer age groups contribute the most orders and sales?
-6. Which states and cities generate the most sales?
-7. How much discount is being given to customers?
-8. Which discount ranges generate the most orders and sales?
-9. What price ranges are most popular?
-10. How concentrated is sales among customers?
-11. What patterns can be identified from product ratings?
-12. Which areas should be monitored for future business decisions?
+An e-commerce business needs to understand what is driving its sales and where there are opportunities to improve performance. This project aims to:
+- Quantifying total revenue and order volume to establish an overall performance baseline.
+- Identifying top-performing product segments to optimize inventory and merchandising strategy.
+- Isolating the highest-grossing brands and individual products driving the most revenue.
+- Evaluating which discount ranges yield the highest volume of orders and overall sales.
+- Analyzing purchase distributions to identify reliance on high-value repeat buyers versus casual shoppers.
 
 The purpose is not only to create charts, but to use the data to support **data-driven business decisions**.
 
@@ -144,10 +103,7 @@ An important limitation is that **2023 contains only January to March data**, so
 
 ### Excel
 
-Excel was used for the complete analysis.
-
-Main features used:
-
+Excel was used for the complete analysis. Main features used:
 - Excel Tables
 - Formulas
 - Calculated Columns
@@ -158,20 +114,8 @@ Main features used:
 - Slicers / interactive filtering
 - Customer concentration analysis
 
-### Key Excel Concepts
+### GitHub
 
-The analysis uses common Business Analyst and Data Analyst concepts such as:
-
-- KPI analysis
-- Aggregation
-- Trend analysis
-- Segmentation
-- Top-N analysis
-- Customer concentration
-- Category analysis
-- Discount analysis
-- Geographic analysis
-- Exploratory Data Analysis
 
 ---
 
@@ -390,84 +334,35 @@ This suggests that sales are not entirely dependent on only a very small group o
 
 ## Research Questions & Key Findings
 
-### Q1. What is the overall sales performance?
-
-The dataset contains **3,500 orders** with approximately **₹18.89 lakh in sales after discount**.
-
-The average order value is approximately **₹539.67**.
-
-### Q2. Which category performs best?
-
-The **Men** category generated the highest sales value at approximately **₹5.86 lakh**, followed by Women at approximately **₹5.47 lakh**.
-
-### Q3. Which sub-category performs best?
-
-**Footwear** was the highest-selling sub-category with approximately **₹3.89 lakh** in sales.
-
-### Q4. Which brand generates the highest sales?
-
-**Puma** generated the highest sales among the brands in the dataset, with approximately **₹2.49 lakh**.
-
-### Q5. Which products generate the most sales?
-
-**Jeans** was the highest-selling product with approximately **₹1.73 lakh** in sales.
-
-Other strong products included Shorts, T-Shirts, Sandals, and Jackets.
-
-### Q6. Which customer age group contributes the most?
-
-The **18–25 age group** generated approximately **₹10.83 lakh** in sales and accounted for **1,989 orders**.
-
-### Q7. Which state generates the most sales?
-
-**Gujrat** recorded the highest sales value in the dataset at approximately **₹3.02 lakh**.
-
-### Q8. What is the discount pattern?
-
-The average discount is approximately **35.51%**.
-
-The **30–39% discount band** generated the highest sales value at approximately **₹9.10 lakh**.
-
-However, this analysis shows association only. It does not prove that higher discounts caused higher sales.
-
-### Q9. Which price range is most popular?
-
-The **₹500–₹999** price band recorded the highest number of orders with **1,223 orders**.
-
-The **₹1,000–₹1,999** band generated the highest sales value at approximately **₹6.54 lakh**.
-
-### Q10. How concentrated are sales among customers?
-
-The top 10 customers contributed approximately **12.42% of total sales**.
-
-This provides a useful view of customer concentration and helps identify whether sales depend heavily on a small customer group.
-
-### Q11. What does the time analysis show?
-
-Sales vary month to month. Q1 generated the highest quarterly sales in the dataset at approximately **₹6.26 lakh**.
-
-The strongest monthly sales period in the dataset was **June 2022**, with approximately **₹84,345** in sales.
-
-Because 2023 only contains January–March data, it should be treated as a partial year.
+1. **Overall Sales Baseline:** Generated ₹18.89 lakh in net sales across 3,500 orders, averaging ₹539.67 per order
+2. **Top Category:** Led by Men’s apparel at ₹5.86 lakh, closely followed by Women’s at ₹5.47 lakh
+3. **Top Sub-category:** Driven by Footwear, which captured the highest share at ₹3.89 lakh in sales
+4. **Dominant Brand:** Led by Puma, securing the highest brand revenue at ₹2.49 lakh
+5. **Highest-Grossing Product:** Anchored by Jeans at ₹1.73 lakh, alongside strong demand for shorts and t-shirts
+6. **Primary Demographic:** Dominated by the 18–25 age group, contributing 1,989 orders and ₹10.83 lakh in revenue
+7. **Top Geographic Market:** Anchored by Gujarat, which recorded the highest regional sales at ₹3.02 lakh
+8. **Discount Efficiency:** Averaged a 35.51% discount, with the 30–39% band yielding a peak revenue of ₹9.10 lakh
+9. **Price Point Popularity:** Maximum volume in the ₹500–₹999 range (1,223 orders), but peak revenue in the ₹1,000–₹1,999 range (₹6.54 lakh)
+10. **Customer Concentration:** Maintained a healthy distribution, with the top 10 customers accounting for 12.42% of total sales
+11. **Temporal Sales Trends:** Peak quarterly revenue achieved in Q1 (₹6.26 lakh), with June 2022 marking the highest individual month (₹84,345)
 
 ---
 
 ## Dashboard
 
-The dashboard includes analysis areas such as:
-
-1. Monthly Sales Trend
-2. Monthly Orders Trend
-3. Sales by Category
-4. Top 10 Brands by Sales
-5. Top 10 Products by Sales
-6. Sales by State
-7. Sales by Age Group
-8. Sales by Discount Band
-9. Orders by Price Band
-10. Product Rating Distribution
-11. Discount % vs Sales Price
-12. Month vs Category Sales
+- The dashboard includes analysis areas such as:
+   - Monthly Sales Trend
+   - Monthly Orders Trend
+   - Sales by Category
+   - Top 10 Brands by Sales
+   - Top 10 Products by Sales
+   - Sales by State
+   - Sales by Age Group
+   - Sales by Discount Band
+   - Orders by Price Band
+   - Product Rating Distribution
+   - Discount % vs Sales Price
+   - Month vs Category Sales
 
 The purpose of the dashboard is to allow a business user to quickly move from **overall performance to detailed product, customer, geography, and discount analysis**.
 
@@ -535,45 +430,15 @@ Use the charts and filters to explore the data from different business perspecti
 
 Based on the analysis, the following areas should be considered for business monitoring and future analysis:
 
-### 1. Monitor high-performing categories
+* **Category & Sub-Category Monitoring:** Track demand shifts in high-performing core areas like Men, Women, and Footwear to identify new growth pockets.
+* **Brand & Product Tracking:** Audit top revenue drivers like Puma, H&M, and Roadster across sales volume, discounts, and ratings to optimize inventory assortment.
+* **Demographic Segmentation:** Analyze purchasing patterns within the dominant 18–25 age group to refine targeted engagement strategies.
+* **Discount Efficiency Audits:** Evaluate the 35.51% average discount against order volume, repeat behavior, and margins to ensure promotional profitability.
+* **Geographic Expansion:** Monitor state and city performance to scale operations in high-performing regions and troubleshoot underperforming markets.
+* **Concentration Risk Management:** Track the 12.42% revenue reliance on the top 10 customers to safely manage repeat-buyer dependencies.
+* **Advanced Data Integration:** Incorporate costs, returns, and inventory metrics to pivot from basic sales tracking to advanced profitability and lifetime value analysis.
 
-Men and Women are the largest sales categories in the dataset. Their performance should be monitored regularly to understand changes in demand.
-
-### 2. Focus on high-performing sub-categories
-
-Footwear is the highest-selling sub-category. Product-level and brand-level performance within Footwear can be studied further to identify growth opportunities.
-
-### 3. Track top brands and products
-
-Puma, H&M, Roadster and other high-performing brands contribute significantly to sales. Monitoring their sales trends, order volume, discounts, and ratings can support assortment decisions.
-
-### 4. Segment customers by age
-
-The 18–25 customer group contributes a large share of orders and sales. Customer segmentation can be used to understand different purchasing patterns across age groups.
-
-### 5. Monitor discount effectiveness
-
-The average discount is relatively high at approximately 35.51%. Discount analysis should therefore track both sales and order response rather than only increasing discounts.
-
-Future analysis should compare:
-
-- Discount %
-- Orders
-- Sales
-- Average Order Value
-- Customer repeat behavior
-
-This can help identify whether discounts are being used efficiently.
-
-### 6. Monitor geographic performance
-
-State and city-level sales can help identify high-performing markets and locations with lower sales.
-
-### 7. Monitor customer concentration
-
-The top 10 customers contribute about 12.42% of total sales. Customer concentration should be tracked over time to identify changes in dependency on high-value customers.
-
-### 8. Add more business data in future
+### Add more business data in future
 
 The current dataset does not contain:
 
@@ -601,46 +466,8 @@ Adding these fields would allow deeper analysis such as:
 
 This project has some important data limitations.
 
-### No Profit Data
-
-The dataset does not contain product cost or operating expenses, so profit and profit margin cannot be calculated.
-
-### No Quantity Data
-
-There is no separate quantity field. Therefore, the analysis treats each order record as one order.
-
-### No Returns or Cancellations
-
-Sales values cannot be adjusted for returns or cancellations because those fields are not available.
-
-### Partial 2023 Data
-
-2023 contains only January to March data. Therefore, full-year 2023 performance should not be compared directly with complete years.
-
-### Product-Level Ratings
-
-Ratings are available as a product attribute and should not be interpreted as a complete customer review dataset.
-
----
-
-## Conclusion
-
-This Excel project demonstrates how raw e-commerce data can be transformed into a structured business analysis.
-
-The analysis covers:
-
-**Sales → Products → Categories → Brands → Customers → Geography → Pricing → Discounts → Customer Concentration**
-
-The main objective is to provide a clear view of business performance and identify areas that can be explored further using more detailed business data.
-
-This project also demonstrates practical skills in:
-
-- Excel data preparation
-- Data analysis
-- PivotTables
-- KPI development
-- Business problem solving
-- Customer segmentation
-- Trend analysis
-- Dashboard design
-- Business insight generation
+1. No Profit Data: The dataset does not contain product cost or operating expenses, so profit and profit margin cannot be calculated.
+2. No Quantity Data: There is no separate quantity field. Therefore, the analysis treats each order record as one order.
+3. No Returns or Cancellations: Sales values cannot be adjusted for returns or cancellations because those fields are not available.
+4. Partial 2023 Data: 2023 contains only January to March data. Therefore, full-year 2023 performance should not be compared directly with complete years.
+5. Product-Level Ratings: Ratings are available as a product attribute and should not be interpreted as a complete customer review dataset.
